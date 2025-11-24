@@ -66,6 +66,9 @@
                 <configuration>
                     <executable>java</executable>
                     <arguments>
+                        <argument>-Djava.util.logging.config.file=logging.properties</argument>
+                        <argument>-Djavax.xml.bind.JAXBContext=com.sun.xml.bind.v2.ContextFactory</argument>
+                        <argument>-Dcom.sun.xml.bind.v2.runtime.JAXBContextImpl.fastBoot=true</argument>
                         <argument>-cp</argument>
                         <classpath />
                         <argument>Pipe</argument>

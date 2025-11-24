@@ -25,3 +25,7 @@ PipeTestFile.xml
 
 #Pages
 _site
+#out
+out/
+
+.java-version
