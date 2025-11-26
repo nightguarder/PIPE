@@ -1,6 +1,9 @@
 #!/bin/bash
 # run-pipe.sh
 
+# This can be only run after running mvn install
+# in the root directory of the project
+
 echo "Starting PIPE application..."
 echo "Current directory: $(pwd)"
 

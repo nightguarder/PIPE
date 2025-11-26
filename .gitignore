@@ -29,3 +29,8 @@ _site
 out/
 
 .java-version
+# VSCODe
+.vscode
+
+#MaCOS
+.DS_Store
